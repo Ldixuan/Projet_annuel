@@ -15,10 +15,7 @@ import pickle
 from covid.api import CovId19Data
 
 s3 = boto3.client(
-    's3',
-    aws_access_key_id="AKIAQ7CGCDEXTJECRB4R",
-    aws_secret_access_key="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",
-    endpoint_url="https://s3.us-east-1.amazonaws.com",
+    's3'
 )
 
 sqs = boto3.resource('sqs', region_name="eu-west-3")
