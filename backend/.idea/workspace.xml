@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="df8ce1cc-707f-4156-bd7c-802ae97b0a0b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/backend.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/covid19_knn_0.75.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/covid19_lr_0.75.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/covid19_lr_0.75_new.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/predictPandemi/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/predictPandemi/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/predictPandemiApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/predictPandemiApp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/predictPandemiApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/predictPandemiApp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/predictPandemiApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/predictPandemiApp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/ISSUE_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/docs/documentation.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front/docs/documentation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../front/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../front/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/components/navbar/navbar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/app/components/navbar/navbar.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/components/sidebar/sidebar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/app/components/sidebar/sidebar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/components/sidebar/sidebar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/app/components/sidebar/sidebar.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/layouts/admin-layout/admin-layout.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/app/layouts/admin-layout/admin-layout.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/layouts/admin-layout/admin-layout.routing.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/app/layouts/admin-layout/admin-layout.routing.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/pages/dashboard/dashboard.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/app/pages/dashboard/dashboard.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/pages/dashboard/dashboard.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/app/pages/dashboard/dashboard.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/pages/dashboard/dashboard.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/app/pages/dashboard/dashboard.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/pages/icons/icons.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/pages/icons/icons.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/pages/icons/icons.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/pages/icons/icons.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/pages/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/app/pages/login/login.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/pages/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/app/pages/login/login.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/pages/maps/maps.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/pages/maps/maps.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/pages/maps/maps.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/pages/maps/maps.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/pages/symptoms-checker/symptoms-checker.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/app/pages/symptoms-checker/symptoms-checker.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/pages/symptoms-checker/symptoms-checker.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/app/pages/symptoms-checker/symptoms-checker.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/pages/symptoms-checker/symptoms-checker.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/app/pages/symptoms-checker/symptoms-checker.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/pages/tables/tables.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/pages/tables/tables.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/pages/tables/tables.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/pages/tables/tables.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/pages/update-data/update-data.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/app/pages/update-data/update-data.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/pages/update-data/update-data.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/app/pages/update-data/update-data.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/pages/user-profile/user-profile.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/pages/user-profile/user-profile.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/pages/user-profile/user-profile.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/pages/user-profile/user-profile.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/variables/charts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/app/variables/charts.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/providers/rest/rest.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/providers/rest/rest.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model/src/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model/src/.ipynb_checkpoints/symptomes-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model/src/.ipynb_checkpoints/symptoms_checker_model-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model/src/.ipynb_checkpoints/symptoms_checker_model_covid19_knn-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model/src/.ipynb_checkpoints/symptoms_checker_model_covid19_lr-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model/src/.ipynb_checkpoints/symptoms_checker_model_covid19_svm-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model/src/symptomes.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model/src/symptoms_checker_model_covid19_knn.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model/src/symptoms_checker_model_covid19_lr.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model/src/symptoms_checker_model_covid19_svm.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1skza1MSul4FOKBP2Qw1yGbCum6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/utile" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\projet_annuel\PROJET-ANNUEL\backend\utile" />
+      <recent name="D:\study\projet_annuel\PROJET-ANNUEL\backend" />
+      <recent name="D:\study\projet_annuel\PROJET-ANNUEL\backend\predictPandemiApp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\study\projet_annuel\PROJET-ANNUEL\backend" />
+      <recent name="D:\study\projet_annuel\PROJET-ANNUEL\backend\predictPandemiApp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.symptomes_checker (1)">
+    <configuration name="data_extraction_from_api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="backend" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\anaconda\envs\django\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../model/src" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../model/src/data_extraction_from_api.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fitModel_worker" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="backend" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\anaconda\envs\django\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fitModel_worker.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="symptomes_checker (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="backend" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\anaconda\envs\django\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utile" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utile/symptomes_checker.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="symptomes_checker" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="backend" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/predictPandemiApp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/predictPandemiApp/symptomes_checker.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="backend" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\anaconda\envs\django\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/predictPandemiApp" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/predictPandemiApp/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.symptomes_checker (1)" />
+        <item itemvalue="Python.fitModel_worker" />
+        <item itemvalue="Python.symptomes_checker" />
+        <item itemvalue="Python.data_extraction_from_api" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

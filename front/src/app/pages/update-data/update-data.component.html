@@ -1,0 +1,92 @@
+<div class="header pb-8 pt-5 pt-lg-8 d-flex align-items-center" >
+    <!-- Mask -->
+    <span class="mask bg-gradient-danger opacity-8"></span>
+  </div>
+  <div class="container-fluid mt--7">
+    <div class="row">
+      
+      <div class="col-xl-8 order-xl-1">
+        <!-- <div class="alert alert-success alert-dismissible" [class.fade]="sucessFade" role="alert">
+          <span class="alert-inner--icon"><i class="ni ni-like-2"></i></span>
+          <span class="alert-inner--text"><strong>Success!</strong> sign up success, navigater to login page..</span>
+          <button type="button" class="close" (click)="sucessFade=true" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div> -->
+        <div class="card bg-secondary shadow">
+          <div class="card-header bg-white border-0">
+            <div class="row align-items-center">
+              <div class="col-8">
+                <h3 class="mb-0">Update Datasets</h3>
+              </div>
+            </div>
+          </div>
+          
+          <div class="card-body ">
+
+              <div class="text-center">
+                    <img src="./assets/img/brand/upload.jpg" class="btn btn-sm col-3 my-4" alt="..."
+                    (click)="clickUpload()">
+                </div>
+
+                <div *ngIf="message" class="alert alert-primary" role="alert">
+                  {{message}}
+                </div>
+
+                <!-- <div *ngIf="progress>0" class="progress-wrapper">
+                    <div class="progress-info">
+                      <div *ngIf="progress==100" class="progress-label">
+                        <span>Task completed</span>
+                      </div>
+                      <div class="progress-percentage">
+                        <span>{{ progress }}%</span>
+                      </div>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-info progress-bar-striped bg-primary" id="processbar" role="progressbar" aria-valuenow="{{progress}}" aria-valuemin="0" aria-valuemax="100"
+                      [ngStyle]="{ width: progress + '%' }"></div>
+                    </div>
+                  </div> -->
+<!-- 
+            <div  class="progress">
+                <div
+                  class="progress-bar progress-bar-info progress-bar-striped"
+                  role="progressbar"
+                  attr.aria-valuenow="{{ progress }}"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  [ngStyle]="{ width: progress + '%' }"
+                >
+                  {{ progress }}%
+                </div>
+              </div> -->
+              
+            
+              
+              
+              <!-- <div class="alert alert-light" role="alert">{{ message }}</div> -->
+              
+              <div class="mt-3 ml-4">
+                <h4>Règles d'utilisation :</h4>
+                Il faut respecter les règles ci dessous mentionnées  afin d'assurer  le fonctionnement de l' algorithme symptômes checker :
+                <ul>
+                <li> Ajouter une description des colonnes qui doit être impérativement au niveau de la deuxième ligne du fichier à uploader.</li>  
+
+                <li>S'assurer que les noms des colonnes sont bien claires .Ces dernières vont être automatiquement affichées à l'interface d'utilisateur.</li>
+
+                <li>Renommer le label (la colonne à prédire ) en "result".</li>
+              </ul>
+              </div>
+
+              <hr class="my-4" />
+                <div class="text-center">
+                  <button class="btn btn-lg btn-primary" [disabled]="!selectedFiles" (click)="upload()">Update</button>
+                </div>
+              
+                <input type="file" class="fade" id="selectInput" (change)="selectFile($event)"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

@@ -1,0 +1,96 @@
+<div class="header pb-8 pt-5 pt-lg-8 d-flex align-items-center" >
+    <!-- Mask -->
+    <span class="mask bg-gradient-danger opacity-8"></span>
+    <div class="spinner-border" role="status" *ngIf="loading">
+      <span class="sr-only">Loading...</span>
+    </div>
+
+  </div>
+  <div class="container-fluid mt--7">
+    <div class="row">
+
+      <div class="col-xl-8 order-xl-1">
+        <div class="card bg-secondary shadow">
+          <div class="card-header bg-white border-0">
+            <div class="row align-items-center">
+              <div class="col-8">
+                <h3 class="mb-0">Symptoms Checker</h3>
+              </div>
+
+            </div>
+          </div>
+          <div class="card-body">
+            <form [formGroup]="symptomsForm" (ngSubmit)="onSubmit()">
+              <h6 class="heading-small text-muted mb-4">User information</h6>
+              <div class="pl-lg-4" *ngFor="let userInfo of userInfoCol;">
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <label  ngbTooltip="{{userInfo.description}}" class="form-control-label" for="input-{{userInfo.key}}">{{userInfo.key.split('_').join(' ')}}</label>
+                    <input  *ngIf="userInfo.saisie!='options'" id="input-{{userInfo.key}}" type="{{userInfo.type}}" placeholder="{{userInfo.key}}" formControlName="{{userInfo.key}}" class="form-control form-control-alternative"   value="{{value}}">
+                    
+                    <select *ngIf="userInfo.saisie=='options'"  id="input-{{userInfo.key}}" formControlName="{{userInfo.key}}" class="form-control form-control-alternative" data-toggle="select">
+                      <option *ngFor="let value of userInfo.value;" value="{{value}}">{{value}}</option>
+                    </select>
+                  </div>
+                </div>
+                <!-- <div class="row">
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <label class="form-control-label" for="input-age">Age</label>
+                      <input type="text" id="input-age" type="number" placeholder="Age" formControlName="age" class="form-control form-control-alternative" placeholder="Age" value="">
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <label class="form-control-label" for="input-gender">Gender</label>
+                      <select id="input-gender" formControlName="gender" class="form-control form-control-alternative" data-toggle="select">
+                        <option value="0">male</option>
+                        <option value="1">female</option>
+                        <option value="{{varaible}}">{{varaible}}</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <label class="form-control-label" for="input-Contact">contact</label>
+                      <select id="input-contact" formControlName="contact" class="form-control form-control-alternative" data-toggle="select">
+                        <option value="0">not contact</option>
+                        <option value="1">contack</option>
+                        <option value="2">dont-know</option>
+                      </select>
+                    </div>
+                  </div>
+                </div> -->
+    
+              </div>
+              <hr class="my-4" />
+              <!-- Symptoms -->
+
+              <h6 class="heading-small text-muted mb-4">Symptoms</h6>
+              <div class="pl-lg-4" *ngFor="let symptoms of symptomsCol;">
+                  <div class="custom-control custom-checkbox mb-3" >
+                    <input class="custom-control-input" formControlName="{{symptoms.key}}" id="input-{{symptoms.key}}" type="checkbox">
+                    <label ngbTooltip="{{symptoms.description}}" class="custom-control-label" for="input-{{symptoms.key}}">{{symptoms.key.split('_').join(' ')}}</label>
+                  </div>
+                
+              </div>
+
+              <hr *ngIf=prob class="my-4" />
+              <div *ngIf=prob class="text-cente">
+                <div class="alert alert-primary" role="alert">
+                  <label>{{prob}}</label>
+                </div>
+              </div>
+              <hr class="my-4" />
+                <div class="text-center">
+                  <button class="btn btn-lg btn-primary">Checker</button>
+                </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

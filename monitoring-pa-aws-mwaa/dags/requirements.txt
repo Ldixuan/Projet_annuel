@@ -1,0 +1,7 @@
+covid-data-api==1.5
+plotly==5.0.0
+statsmodels==0.12.2
+boto3==1.17.101
+datetime==4.3
+pandas==1.2.5
+matplotlib==3.4.2

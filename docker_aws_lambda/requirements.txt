@@ -1,0 +1,4 @@
+lightgbm==3.2.1
+scikit-learn==0.24.2
+boto3==1.17.78
+pandas==1.2.4
