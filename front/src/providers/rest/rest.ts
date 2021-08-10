@@ -28,9 +28,6 @@ export class RestProvider {
 
     public bucket = new S3(
       {
-          accessKeyId: 'AKIAQ7CGCDEXTJECRB4R',
-          secretAccessKey: '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',
-          region: 'us-east-1'
       }
     );
 
